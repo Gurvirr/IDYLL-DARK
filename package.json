@@ -1,0 +1,37 @@
+{
+  "name": "idyll-dark",
+  "displayName": "IDYLL DARK",
+  "description": "Lavendar purple & cobalt blue. Minamal, yet charming.",
+  "icon": "IDYLL Icon.png",
+  "version": "0.8.0",
+  "publisher": "Gurvirr",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gurvirr/IDYLL-DARK"
+  },
+  "keywords": [
+    "theme",
+    "dark theme",
+    "blue",
+    "purple",
+    "minimal",
+    "Gurvir",
+    "Gurvirr",
+    "Gurvir.r"
+  ],
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "IDYLL DARK",
+        "uiTheme": "vs-dark",
+        "path": "./themes/IDYLL DARK-color-theme.json"
+      }
+    ]
+  }
+}
